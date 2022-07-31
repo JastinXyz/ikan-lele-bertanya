@@ -51,8 +51,8 @@
         "id": 5,
         "submitted_by": "user",
         "caption": {
-            "string": "harga diri tuh, berapa harganya?",
-            "array": ["harga diri tuh", "berapa harganya?"]
+            "string": "harga diri tuh, sekilonya berapa?",
+            "array": ["harga diri tuh", "sekilonya berapa?"]
         }
     },
     "6": {
@@ -63,4 +63,36 @@
             "array": ["rumah sakit tuh", "emangnya sakit apa?"]
         }
     },
+    "7": {
+        "id": 7,
+        "submitted_by": "user",
+        "caption": {
+            "string": "biar apa, biarin",
+            "array": ["biar apa, biarin"]
+        }
+    },
+    "8": {
+        "id": 8,
+        "submitted_by": "user",
+        "caption": {
+            "string": "pola pikir tuh, bentuk polanya gimana?",
+            "array": ["pola pikir tuh", "bentuk polanya gimana?"]
+        }
+    },
+    "9": {
+        "id": 9,
+        "submitted_by": "user",
+        "caption": {
+            "string": "mata kabur tuh, kaburnya lewat mana?",
+            "array": ["mata kabur tuh", "kaburnya lewat mana?"]
+        }
+    },
+    "10": {
+        "id": 10,
+        "submitted_by": "user",
+        "caption": {
+            "string": "darah keturunan tuh, turunnya dari mana?",
+            "array": ["darah keturunan tuh, turunnya dari mana?"]
+        }
+    }
 }
