@@ -94,5 +94,29 @@
             "string": "darah keturunan tuh, turunnya dari mana?",
             "array": ["darah keturunan tuh, turunnya dari mana?"]
         }
-    }
+    },
+    "11": {
+        "id": 11,
+        "submitted_by": "user",
+        "caption": {
+            "string": "minuman keras tuh, sekeras apa?",
+            "array": ["minuman keras tuh", "sekeras apa?"]
+        }
+    },
+    "12": {
+        "id": 12,
+        "submitted_by": "user",
+        "caption": {
+            "string": "masuk angin tuh, masuknya dari mana?",
+            "array": ["masuk angin tuh", "masuknya dari mana?"]
+        }
+    },
+    "13": {
+        "id": 13,
+        "submitted_by": "user",
+        "caption": {
+            "string": "babak belur tuh, babak keberapa?",
+            "array": ["babak belur tuh", "babak keberapa?"]
+        }
+    },
 }
