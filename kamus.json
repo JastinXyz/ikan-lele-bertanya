@@ -1,1 +1,66 @@
-{}
+{
+    "template": {
+        "id": 0,
+        "submitted_by": "user",
+        "caption": {
+            "string": "",
+            "array": ["", ""]
+        }
+    },
+    "0": {
+        "id": 0,
+        "submitted_by": "user",
+        "caption": {
+            "string": "akar masalah tuh, pohonnya pohon apa?",
+            "array": ["akar masalah tuh", "pohonnya pohon apa?"]
+        }
+    },
+    "1": {
+        "id": 1,
+        "submitted_by": "user",
+        "caption": {
+            "string": "efek samping tuh, samping sebelah mana?",
+            "array": ["efek samping tuh", "samping sebelah mana?"]
+        }
+    },
+    "2": {
+        "id": 2,
+        "submitted_by": "user",
+        "caption": {
+            "string": "gagal ginjal tuh, kapan suksesnya?",
+            "array": ["gagal ginjal tuh", "kapan suksesnya?"]
+        }
+    },
+    "3": {
+        "id": 3,
+        "submitted_by": "user",
+        "caption": {
+            "string": "kurikulum merdeka tuh, merdekanya kapan?",
+            "array": ["kurikulum merdeka tuh", "merdekanya kapan?"]
+        }
+    },
+    "4": {
+        "id": 4,
+        "submitted_by": "user",
+        "caption": {
+            "string": "polisi tidur tuh, kapan bangunnya?",
+            "array": ["polisi tidur tuh", "kapan bangunnya?"]
+        }
+    },
+    "5": {
+        "id": 5,
+        "submitted_by": "user",
+        "caption": {
+            "string": "harga diri tuh, berapa harganya?",
+            "array": ["harga diri tuh", "berapa harganya?"]
+        }
+    },
+    "6": {
+        "id": 6,
+        "submitted_by": "user",
+        "caption": {
+            "string": "rumah sakit tuh, emangnya sakit apa?",
+            "array": ["rumah sakit tuh", "emangnya sakit apa?"]
+        }
+    },
+}
