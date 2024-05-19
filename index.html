@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikan Lele Bertanya</title>
+    <link rel="icon" href="./ikanlele.png" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%;"></canvas>
+    <script src="data.js"></script>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+
+        ctx.textBaseline = "middle";
+        ctx.textAlign = "center";
+        ctx.font = "bold 24px 'Poppins', sans-serif";
+        ctx.fillStyle = "white";
+
+        var img = new Image();
+        img.src = "ikanlele.png";
+        img.addEventListener('load', function() {
+            ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+
+            var textArray = getRandomArrayData(); 
+            ctx.fillText(textArray[0], canvas.width/2, 15);
+            ctx.fillText(textArray[1], canvas.width/2, canvas.height - 15);
+            ctx.strokeText(textArray[0], canvas.width/2, 15); 
+            ctx.strokeText(textArray[1], canvas.width/2, canvas.height - 15); 
+        }, false);
+    </script>
+</body>
+</html>
